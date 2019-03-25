@@ -9,10 +9,10 @@ import tweepy as tp
 import time
 import os
 
-consumer_key="DcQYb2OpGFtvj8NniULMiKvAa"
-consumer_secret="o2yKzQhUuNSjX2Cv2grNfZsdtMFmJ6KlRpXgDg3RhNgCZlRqv8"
-access_token="1092178457096671233-Ae2qHWsyfFOSR2Z0RU77pykHmn2cMk"
-access_secret="MfE3wTHZRwj4Dc4FnnceqRsE5VjtnXdlF3sgWMeYAjnlU"
+consumer_key=""
+consumer_secret=""
+access_token=""
+access_secret=""
 
 auth=tp.OAuthHandler(consumer_key,consumer_secret)
 auth.set_access_token(access_token,access_secret)
